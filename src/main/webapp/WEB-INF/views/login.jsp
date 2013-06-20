@@ -23,12 +23,12 @@
 
 <meta name="viewport" content="width=device-width">
 
-<link rel="stylesheet" href="resources/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="webjars/bootstrap/2.3.2/css/bootstrap.min.css">
 <link rel="stylesheet"
-	href="resources/bootstrap/css/bootstrap-responsive.min.css">
+    href="webjars/bootstrap/2.3.2/css/bootstrap-responsive.min.css">
 <link rel="stylesheet" href="resources/css/style.css">
 
-<script src="resources/js/libs/modernizr-2.5.3-respond-1.1.0.min.js"></script>
+<script src="webjars/modernizr/2.6.2/modernizr.min.js"></script>
 </head>
 
 <!-- http://static.springsource.org/spring/docs/current/javadoc-api/org/springframework/web/servlet/tags/UrlTag.html -->
@@ -153,8 +153,8 @@
 	</div>
 	<!-- /container -->
 
-	<script src="resources/js/libs/jquery-1.7.2.min.js"></script>
-	<script src="resources/js/libs/bootstrap/bootstrap.min.js"></script>
+    <script src="webjars/jquery/1.9.0/jquery.min.js"></script>
+   	<script src="webjars/bootstrap/2.3.2/js/bootstrap.js"></script>
 
 </body>
 </html>

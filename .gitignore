@@ -1,9 +1,67 @@
-/target
-/.project
-/.classpath
 /junk
 /logs
 /.springBeans
-/.DS_Store
+
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
 /mvc.log
 /.checkstyle
+
+### Maven ###
+target/
+.gradle/
+
+### Eclipse ###
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+### Gradle ###
+build/
+
+### IntelliJ ###
+*.iml
+*.ipr
+*.iws
+.idea/
+
+### Java ###
+*.class
+
+# Package Files #
+*.war
+*.ear

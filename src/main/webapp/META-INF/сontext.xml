@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiResourceLocking="false"
+         antiJARLocking="false" reloadable="true" path="/REPLACE-1.0-SNAPSHOT">
+
+    <Resource name="jdbc/cleardb" type="javax.sql.DataSource"
+              driverClassName="org.hsqldb.jdbcDriver" maxIdle="2" maxWait="5000"
+              url="jdbc:hsqldb:hsql://localhost:9002/cleardb" username="sa" password=""
+              maxActive="4"/>
+
+</Context>

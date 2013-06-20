@@ -8,11 +8,11 @@
 		</encoder>
 	</appender>
 
-	<logger name="com.rockhoppertech" level="DEBUG" />
-	<logger name="org.springframework" level="DEBUG" />
+    <logger name="com.javaheadbrain" level="DEBUG"/>
+    <logger name="org.springframework" level="INFO"/>
 
-	<root level="WARN">
-		<appender-ref ref="STDOUT" />
+    <root level="WARN">
+    <appender-ref ref="STDOUT" />
 	</root>
 
 </configuration>
